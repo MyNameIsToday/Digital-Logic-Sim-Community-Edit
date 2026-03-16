@@ -648,7 +648,6 @@ namespace DLS.Graphics
 
             Vector2 segmentSizeVertical = new(segmentThickness / 2, segmentHeight);
             Vector2 segmentSizeHorizontal = new(segmentWidth, segmentThickness / 2);
-            Vector2 segmentSizeDiagonal = new(segmentThickness / 2, (float)Math.Sqrt(((segmentSizeHorizontal.x) * (segmentSizeHorizontal.x)) + ((segmentSizeVertical.y) * (segmentSizeVertical.y))));
             Vector2 offsetX = Vector2.right * segmentWidth / 2;
             Vector2 offsetY = Vector2.up * segmentRegionHeight / 4;
 
