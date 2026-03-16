@@ -431,7 +431,7 @@ namespace DLS.Game
 			};
 			return CreateBuiltinChipDescription(ChipType.SevenSegmentDisplay, size, col, inputPins, null, displays, NameDisplayLocation.Hidden, canBeCached: false);
 		}
-        static ChipDescription CreateDisplay16Seg()
+        static ChipDescription CreateDisplay15Seg()
         {
 			PinDescription[] inputPins =
 			{
