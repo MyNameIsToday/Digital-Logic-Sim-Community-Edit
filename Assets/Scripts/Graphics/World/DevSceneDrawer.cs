@@ -677,7 +677,7 @@ namespace DLS.Graphics
             //Draw Diagonal Segments
             Draw.Line(centre + new Vector2(-.32f, .9f), centre + new Vector2(-.1f, .13f), segmentThickness / 5, cols[K]);
             Draw.Line(centre + new Vector2(.32f, .9f), centre + new Vector2(.1f, .13f), segmentThickness / 5, cols[L]);
-            Draw.Line(centre + new Vector2(.34f, -.9f), centre + new Vector2(.1f, -.13f), segmentThickness / 5, cols[M]);
+            Draw.Line(centre + new Vector2(.32f, -.9f), centre + new Vector2(.13f, -.13f), segmentThickness / 5, cols[M]);
             Draw.Line(centre + new Vector2(-.34f, -.9f), centre + new Vector2(-.1f, -.13f), segmentThickness / 5, cols[N]);
 
 			Draw.Ellipse(centre + new Vector2(.57f, -1f), segmentSizeVertical / 2, cols[DP]); // Decimal Point
