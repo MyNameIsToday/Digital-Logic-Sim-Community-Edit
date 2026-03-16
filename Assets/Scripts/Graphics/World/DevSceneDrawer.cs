@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using DLS.Description;
 using DLS.Game;
 using DLS.Simulation;
-using JetBrains.Annotations;
 using Seb.Helpers;
 using Seb.Types;
 using Seb.Vis;
