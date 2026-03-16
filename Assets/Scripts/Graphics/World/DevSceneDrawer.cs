@@ -630,7 +630,7 @@ namespace DLS.Graphics
 		}
         public static Bounds2D DrawDisplay_FifteenSegment(Vector2 centre, float scale, int A, int B, int C, int D, int E, int F, int G, int H, int I, int J, int K, int L, int M, int N, int DP, int COL)
         {
-            const float targetHeightAspect = 1.85f;
+            const float targetHeightAspect = 1.65f;
             const float segmentThicknessFac = 0.165f;
             const float segmentVerticalSpacingFac = 0.07f;
             const float displayInsetFac = 0.2f;
