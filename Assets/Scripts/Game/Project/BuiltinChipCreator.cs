@@ -440,7 +440,7 @@ namespace DLS.Game
                 CreatePinDescription("COL", 2)
 			};
 
-            Color col = new(0.1f, 0.1f, 0.1f);
+            Color col = GetColor(new(0.1f, 0.1f, 0.1f));
             float height = 20 * GridSize;
             Vector2 size = new(GridSize * 13, height);
             float displayWidth = size.x - GridSize * 2;
