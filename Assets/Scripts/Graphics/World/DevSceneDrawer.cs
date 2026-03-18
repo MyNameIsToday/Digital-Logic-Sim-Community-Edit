@@ -455,7 +455,7 @@ namespace DLS.Graphics
                 int J = (simActive && IsBitHigh(sim.InputPins[0], 2) ? DisplayOnState : hoverActive && pin == rootChip.AllPins[0] ? DisplayHighlightState : DisplayOffState) + colOffset;
                 int I = (simActive && IsBitHigh(sim.InputPins[0], 1) ? DisplayOnState : hoverActive && pin == rootChip.AllPins[0] ? DisplayHighlightState : DisplayOffState) + colOffset;
                 int H = (simActive && IsBitHigh(sim.InputPins[0], 0) ? DisplayOnState : hoverActive && pin == rootChip.AllPins[0] ? DisplayHighlightState : DisplayOffState) + colOffset;
-                int G = (simActive && IsBitHigh(sim.InputPins[1], 7) ? DisplayOnState : hoverActive && pin == rootChip.AllPins[0] ? DisplayHighlightState : DisplayOffState) + colOffset;
+                int G = (simActive && IsBitHigh(sim.InputPins[0], 0) ? DisplayOnState : hoverActive && pin == rootChip.AllPins[0] ? DisplayHighlightState : DisplayOffState) + colOffset;
 				int F = (simActive && IsBitHigh(sim.InputPins[1], 6) ? DisplayOnState : hoverActive && pin == rootChip.AllPins[1] ? DisplayHighlightState : DisplayOffState) + colOffset;
                 int E = (simActive && IsBitHigh(sim.InputPins[1], 5) ? DisplayOnState : hoverActive && pin == rootChip.AllPins[1] ? DisplayHighlightState : DisplayOffState) + colOffset;
                 int D = (simActive && IsBitHigh(sim.InputPins[1], 4) ? DisplayOnState : hoverActive && pin == rootChip.AllPins[1] ? DisplayHighlightState : DisplayOffState) + colOffset;
